@@ -4,7 +4,7 @@
 }
 
 div.logo {
-    max-width: 50rem;
+    max-width: 60rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -42,8 +42,7 @@ h2, h3 {
 }
 h2.linhafina {
     max-width: 30rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
+    font-size: 1.2rem;
     letter-spacing: 0.15rem;
     font-weight: 600;
     line-height: 1.2rem;
@@ -61,7 +60,7 @@ time.datetime {
 }
 
 h3.chapeu {
-    font-size: 0,5rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     font-weight: 100; 
 }
@@ -91,8 +90,8 @@ article.corpo p:nth-child(3) { /*selecionar terceito parágrafo*/
 address.author {
     text-align: center;
     font-size: 0.7rem;
-    text-transform: uppercase;
     letter-spacing: 0.1rem;
+    color:black;
 }
 
 address.author strong {
@@ -108,8 +107,18 @@ article.corpo {
     background-color: var(--color-background-article);
     padding: 1rem;
     padding-top: 3rem;
+    color: black;
 }
 
 .chapeu, .linhafina {
     text-align: center;
+}
+
+div.mapa {
+    max-width: 2rem;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 55px;
 }
