@@ -16,7 +16,7 @@ div.logo {
 h1 {
     text-align: center;
     font-size: 3.2rem;
-    width: 35rem;
+    max-width: 35rem;
     margin: 1rem auto;
     font-family: Montserrat;
     text-transform: uppercase;
@@ -120,4 +120,11 @@ div.mapa {
     display: center;
     margin-left: auto;
     margin-right: auto;
+}
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
 }
