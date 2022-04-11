@@ -79,11 +79,7 @@ p{
     color: var(--color-text-article);
 }
 
-article.corpo p:last-child 
-    padding-bottom: 2rem;
-}
-
-article.corpo p:nth-child(3) 
+article.corpo p:last-child {
     padding-bottom: 2rem;
 }
 
@@ -101,9 +97,6 @@ address.author strong {
 
 img {
     width: 100%;
-    max-width: 680px;
-    margin: 0 auto;
-    display: block;
 }
 
 article.corpo {
@@ -117,11 +110,25 @@ article.corpo {
     text-align: center;
 }
 
+img.mapaAL {
+    display: block;
+    max-width: 40rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabela {
+    width: 400px
+    border: 3px solid var(var(--color-text-article);
+    padding: 1rem;
+}
+
 
 @media (max-width: 600px) {
 
     h1 {
         font-size: 2rem;
     }
+
 
 }
