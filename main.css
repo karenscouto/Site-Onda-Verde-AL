@@ -101,6 +101,9 @@ address.author strong {
 
 img {
     width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
 }
 
 article.corpo {
@@ -114,13 +117,7 @@ article.corpo {
     text-align: center;
 }
 
-div.mapa {
-    max-width:50%;
-	height: auto;
-    display: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 @media (max-width: 600px) {
 
     h1 {
