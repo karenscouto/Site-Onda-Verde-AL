@@ -123,6 +123,76 @@ img.mapaAL {
     padding: 1rem;
 }
 
+.tabela {
+
+    width: 400px;
+    border: 5px solid black;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+
+.lista-paises {
+    font-family: Montserrat;
+}
+
+.nome-categoria {
+
+    margin: 0; 
+    font-weight: bolder;
+    padding: .5em 1em;
+}
+
+.autorizado {
+    border-color: rgb(34, 78, 114);
+}
+
+.autorizado > .nome-categoria {
+    background-color: rgb(34, 78, 114);
+    color: white;
+    font-style: bold;
+}
+
+.motivo-social {
+    border-color: rgb(138, 181, 216);
+}
+
+.motivo-social > .nome-categoria {
+    background-color: rgb(138, 181, 216);
+    color: white;
+    font-style: bold;
+}
+
+.saude {
+    border-color: rgb(241, 173, 110);
+}
+
+.saude > .nome-categoria {
+    background-color: rgb(241, 173, 110);
+    color: white;
+    font-style: bold;
+}
+
+.vida-mulher {
+    border-color: rgb(134, 46, 4);
+}
+
+.vida-mulher > .nome-categoria {
+    background-color: rgb(134, 46, 4);
+    color: white;
+    font-style: bold;
+}
+
+.totalmente-proibido {
+    border-color: firebrick;
+}
+
+.totalmente-proibido > .nome-categoria {
+    background-color: firebrick;
+    color: white;
+    font-style: bold;
+}
 
 @media (max-width: 600px) {
 
