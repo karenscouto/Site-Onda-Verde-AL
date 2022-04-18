@@ -175,21 +175,21 @@ img.mapaAL {
 }
 
 .vida-mulher {
-    border-color: rgb(134, 46, 4);
+    border-color: firebrick;
 }
 
 .vida-mulher > .nome-categoria {
-    background-color: rgb(134, 46, 4);
+    background-color: firebrick;
     color: white;
     font-style: bold;
 }
 
 .totalmente-proibido {
-    border-color: firebrick;
+    border-color: rgb(134, 46, 4);
 }
 
 .totalmente-proibido > .nome-categoria {
-    background-color: firebrick;
+    background-color: rgb(134, 46, 4);
     color: white;
     font-style: bold;
 }
